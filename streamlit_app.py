@@ -9,7 +9,7 @@ from pypdf import PdfReader
 
 # ---------- Settings (change model names here if Google retires them) ----------
 EMBED_MODEL = "gemini-embedding-001"
-CHAT_MODEL = "gemini-2.5-flash"
+CHAT_MODEL = "gemini-3.8-flash"
 CHUNK_SIZE = 1000      # characters per chunk
 CHUNK_OVERLAP = 150    # characters shared between neighbouring chunks
 TOP_K = 4              # how many chunks to retrieve per question
